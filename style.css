@@ -407,7 +407,7 @@ button.confirmar {
     height: 30px;
   }
 
-  .status-guide {
+  .status-guide .dot{
     display: inline-block;
     align-items: center;
   }
