@@ -370,3 +370,41 @@ button.confirmar {
 .hidden {
   display: none;
 }
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .new-task, .filter-task {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .task-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .task-actions {
+    justify-content: flex-start;
+  }
+
+  .task-actions img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
